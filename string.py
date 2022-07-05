@@ -57,7 +57,21 @@
 #print("your full name is",first_name, last_name)
 
 
-first_name = input("first name")
-second_name = input("second name")
-full_name = first_name + second_name
-print ("your full name is",full_name)
+#first_name = input("first name")
+#second_name = input("second name")
+#full_name = first_name + second_name
+#print ("your full name is",full_name)
+
+
+#a=input("enter your name")
+#marks_english = input("enter your marks in english")
+#marks_maths = input("enter your marks in maths")
+#sum_marks = int(marks_english) + int(marks_maths)
+#print ("your name is",a)
+#print ("the total sum of marks is",sum_marks)
+
+#print ("samay"+" "+"chaudhary")
+#print ("samay" + "chaudhary")
+#print ("10"+"20")
+#print (int(10)+int(10))
+#print ("samay"+str(10))
