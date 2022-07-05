@@ -47,3 +47,6 @@ numeric_value = 11
 fruit_name = "Apple"
 
 print ("the jkrjg",numeric_value, fruit_name)
+
+numeric_value = input ("please provide me your fav fruit")
+print ("your fav fruit is", numeric_value)
