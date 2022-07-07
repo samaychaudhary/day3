@@ -119,7 +119,7 @@ print(full_name.center(5+number+5,"^"))     #centre ma name ani side ma stars.
 example3 = "any"
 example3[1] = "N"   #cant do to capital N because it is immutable..ek choti assign garesi change hudaina"
 print (example3)
-'''
+
 
 example4 = "any"
 print(example4.replace("n","N"))   #this replaces because this is photocopy(newwww)
@@ -128,6 +128,9 @@ print(example4)                    #this is original so no changed hence immutab
 #example4 = example4 + "body"
 example4 += "body"   # adds example4 and body
 print (example4)
+
+'''
+
 
 
 
