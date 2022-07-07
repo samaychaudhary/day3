@@ -67,18 +67,68 @@ print (f"your full name is {fullname} and {char} character count is {char_count}
 
 #solved problem with spaces: lstrip(), rstrip(), strip()   # lstrip le left side bata space hataucha, strip le both side, only space
 
-spaces_problem = "   aarayama    "
+'''
+'''
+spaces_problem = "   aar ay     am    a    "
 stars = "***********"
 print (stars, spaces_problem, stars)
 print (stars, spaces_problem.lstrip(),stars)
 print (stars, spaces_problem.rstrip(),stars)
 print (stars, spaces_problem.strip(),stars)
-
 '''
 
+'''
 full_name, char = input("enter your full name with comma").split(",")
 space = full_name.strip()
 char_count = full_name.count(char)
 print (f"your full name is {full_name} and {char} character count is {char_count} ")
+
+
+
+
+#DAY5 ahead
+solved_number = spaces_problem.replace(" ","")  #replaces space with non space all. 
+print (f"the solve of space problem is:{solved_number}")
+
+
+replace_example = "kritika is beautiful and is outsstanding"
+print(replace_example.find("is"))    #finds in which character there is is.
+print(replace_example.replace("is","was"))      #changes all is to was in sentence
+print(replace_example.find("a",3))      #finds a only after character 3
+print(replace_example.replace("is","was",1))   #replaces is with was first wala only as 1 mentioned
+found = replace_example.find("is")
+print(replace_example.find("is",found+1))  #finds second is in the sentence
+
+
+
+
+
+#center() method
+example2="python"     #6char
+print(example2.center(2+6+2,"*"))      #6 is the number of characters in python and there will be 2 2stars in side..center ma.
+
+full_name = input("enter your full name")
+number = len(full_name)
+print(full_name.center(5+number+5,"^"))     #centre ma name ani side ma stars.
+
+'''
+'''
+
+#string are immutable and assignment operator
+
+example3 = "any"
+example3[1] = "N"   #cant do to capital N because it is immutable..ek choti assign garesi change hudaina"
+print (example3)
+'''
+
+example4 = "any"
+print(example4.replace("n","N"))   #this replaces because this is photocopy(newwww)
+print(example4)                    #this is original so no changed hence immutable
+
+#example4 = example4 + "body"
+example4 += "body"   # adds example4 and body
+print (example4)
+
+
 
 
