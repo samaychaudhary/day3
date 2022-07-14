@@ -104,15 +104,15 @@ print (my_value)
 
 '''
 first, second, third = input("enter three numbers").split(",")
-def greater(a,b):
+def greater(a,b,c):
     if a>b:
-        return f"{a}>{b}"
+        return a
     else:
-        return f"{b}>{a}"
+        return b
 
 def greatest(a,b,c):
     greater_of_two_num = greater(a,b)
-    return greater(greater_of_two_num)
+    return greater(greater_of_two_num,c)
 
 #def greatest(a,b,c):
 # return greater(greater(a,b),c)
