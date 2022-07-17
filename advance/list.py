@@ -158,8 +158,8 @@ def reverse(any_list):
 
 ok = reverse(name_lists)
 print (ok)
-'''
 
+'''
 
 num = int(input("enter a number"))
 generated_list = list(range(0,num+1))
