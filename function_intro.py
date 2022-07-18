@@ -104,7 +104,7 @@ print (my_value)
 
 '''
 first, second, third = input("enter three numbers").split(",")
-def greater(a,b,c):
+def greater(a,b):
     if a>b:
         return a
     else:
